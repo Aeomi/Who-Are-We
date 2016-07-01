@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Who Are We?</title>
+
+        <!--Stylesheets-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+
+        <!--Libs-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+		<!-- Falling Snow -->
+		<script src="scripts/snowstorm.js"></script>
+
+               <!-- Init -->
+        <script src="scripts/loader.js"></script>
+
+        <!-- AST -->
+        <script src="scripts/animation.js"></script>
+        <script src="scripts/error.js"></script>
+        <script src="scripts/startup.js"></script>
+
+        <!-- General -->
+        <script src="scripts/main.js"></script>
+
+
+        <style>
+
+            .page-header {
+                padding-top: 80px;
+                padding-bottom: 120px;
+                position: fixed;
+                width: 100%
+            }
+
+            #rest {
+                background-image: linear-gradient(180deg, rgb(240, 240, 240), rgb(190, 220, 250));
+            }
+
+            /* Text effects */
+
+			#text-body {
+				/*font-size: 18px;*/
+				/*font-family: 'Times New Roman', Times, serif;*/
+				line-height: 150%;
+                text-align: center;
+                font-size: 16px;
+                padding-top: 250px;
+                padding-bottom: 500px;
+			}
+
+            #out-text {
+                color: darkslateblue;
+                font-size: 18px;
+            }
+
+            .strong {
+                font-weight: bold;
+                text-shadow: darkslategrey;
+            }
+
+            .off {
+                font-style: oblique;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <section id="page-header" class="page-header">
+            <h1 class="project-name" class="strong">Who Are We?</h1>
+        </section>
+
+        <div id="rest">
+            <section class="main-content">
+                <div id="text-body">
+                    <p>"Well... I'm so and so,<br />
+                    I was given this name by my parents,<br />
+                    I've been to such and such a college,<br />
+                    I've done these things in my profession,<br />
+                    and I produce a little biography."</p>
+
+                    <p>Buddha says forget it, that isn't you.<br />
+                    That's just some story.<br />
+                    That's all gone, that's all passed.<br />
+                    I want to see the real you!<br />
+                    Who you are now!<br />
+                    Well nobody knows who that is.<br />
+                    Because we don't know ourselves except through listening to our echoes, and consulting our memories.</p>
+
+                    <p>But then there's a real you, and that again leads us back to this question:<br />
+                    <br /><span class="strong">Who are you?</span><br /><br />
+                    We shall see how they play with this exam,<br />
+                    if you will emerge from a faceted shell,<br />
+                    and find out who they really are.</p>
+
+                    <p>You will find that the Zen people are quite divided on this.<br />
+                    They will say, "No we don't believe literally in reincarnation.<br />
+                    That after your funeral, you will suddenly become somebody different, living somewhere else."<br />
+                    They will say, "Reincarnation means this:<br />
+                    that if you sitting here now, are you really convinced that you're the same person who walked in at the door half an hour ago, you are being reincarnated.<br />
+                    If you're liberated, you'll understand that you're not.<br />
+                    The past doesn't exist.<br />
+                    The future doesn't exist.<br />
+                    There is only the present and that is the only real you that there is."</p>
+
+                    <p>The Zen master Dogen put it this way, he said<br />
+                    "The Spring does not become the summer; first there is spring, and then there is summer."</p>
+
+                    <p>T.S. Elliot has the same idea in his poem "The Four Quartets"<br />
+                    —<br />
+                    where he says: "When you settle down in the train to read your newspaper...<br />
+                    you are not the same person who left the platform."</p>
+
+                    <p>If you think you are, you are linking your moments up in a chain,<br />
+                    and this is what binds you to the <span class="off">wheel of birth and death.</span></p>
+
+                    <p>When you know that every moment in which you are, is the only moment, this comes into Zen:<br />
+                    A master will say to somebody: "but get up and walk across the room!"<br />
+                    and he comes back and the master says "Where are your footprints?"<br /><br />
+                    They've gone<br />.<br />
+                    So where are you?<br />.<br />
+                    Who are you?<br />.<br />.<br />
+                    When we are asked who we are, we usually give a kind of recitation of a history:<br />
+                    .<br />
+                    .<br />
+                    .<br />
+                    <br />
+                    <span id="out-text" class="off" class="strong">You are not a receding chain of events</span></p>
+                </div>
+
+
+                <footer>
+                    <!-- Background music -->
+                    <audio id="backgroundMusic" autoplay>
+                        <source src="data/audio/bgm.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                    <!-- Initialise BGM with low volume -->
+                    <script>
+                        document.getElementById("backgroundMusic").volume = 0.25;
+                    </script>
+
+                </footer>
+
+
+            </section>
+        </div>
+
+    </body>
+</html>
